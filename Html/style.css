@@ -1,0 +1,30 @@
+h2{
+    text-decoration: dotted;
+    
+}
+body{
+    background-color: aqua;
+    color: 00000;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 10;
+    
+    
+}
+p{
+    font: normal 20px sans-serif;
+    border-top: 3px black solid;
+    border-style: dashed;
+}
+
+.first
+{
+    margin: auto;
+    background-color: aquamarine;
+    color: brown;
+} 
+/* .container{
+    background-color: blue;
+    margin: auto;
+    width: 960px;
+} */
