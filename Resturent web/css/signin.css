@@ -1,0 +1,87 @@
+body{
+	background: url(../images/bg.jpg)
+	no-repeat center center fixed;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+header{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	background-color: #000;
+}
+.head{
+	float:left;
+	color: #fff;
+	font-family: cursive;
+}
+nav{
+	float: right;
+
+}
+li{
+	display: inline;
+	padding: 1rem;
+}
+li a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.activate{
+	color: gold;
+	border-bottom: 2px solid gold;
+	font-weight: 1.2rem;
+	font-weight: bold;
+}
+/* 
+nav ul li:hover{
+	color: gold;
+	border-bottom: 2px solid gold;
+	font-weight: 1.2rem;
+	font-weight: bold;
+} */
+
+ .container{
+ 	width: 30%;
+ 	margin: auto;
+ 	overflow: hidden;
+ 	padding: 1rem;
+ 	background-color: #fff;
+ 	border-radius: 10px;
+ 	text-align: center;
+ 	margin-top: 3%;
+ }
+ hr{
+ 	width: 80%;
+
+ }
+  .fb{
+  	padding: 0.5rem 2rem;
+  	color: #fff;
+  	background-color: #426782;
+  	border: none;
+  	border-radius: 5px;
+  }
+  a{
+  	text-decoration: none;
+  }
+  .container input{
+  	padding:0.5rem 2rem ;
+  	width: 50%;
+  	
+  }
+
+  .container input[type=checkbox]{
+  	width: auto;
+  }
+  .btn{
+  	background-color: #2ecc71;
+  	padding: 1rem;
+  	font-size: 1rem;
+  	width: 50%;
+  	border-radius:7px;
+  	border: none; 
+  }

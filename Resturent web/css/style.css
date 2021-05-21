@@ -1,5 +1,5 @@
 body{
-	background: url(bg.jpg)
+	background: url(../images/bg.jpg)
 	no-repeat center center fixed;
 	background-size: cover;
 	font-family: sans-serif;
@@ -29,11 +29,21 @@ li a{
 	font-weight: bold;
 
 }
-.active{
+
+.activate{
 	color: gold;
 	border-bottom: 2px solid gold;
-
+	font-weight: 1.2rem;
+	font-weight: bold;
 }
+/* 
+nav ul li:hover{
+	color: gold;
+	border-bottom: 2px solid gold;
+	font-weight: 1.2rem;
+	font-weight: bold;
+} */
+
 .container{
 	width: 70%;
 	margin: auto;
